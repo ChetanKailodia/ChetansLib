@@ -31,7 +31,7 @@ Library to testing.
   s.ios.deployment_target = '11.0'
   s.swift_version = '4.0'
 
-  s.source_files = 'ChetansLib/Classes/*.{h,m,swift}'
+  s.source_files = 'ChetansLib/Classes/*.{swift}'
   
   # s.resource_bundles = {
   #   'ChetansLib' => ['ChetansLib/Assets/*.png']
