@@ -1,0 +1,6 @@
+framework module ChetansLib {
+  umbrella header "ChetansLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ChetansLib",
+  "version": "0.1.0",
+  "summary": "A short description of ChetansLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Chetanideal/ChetansLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chetanideal": "chetan@idealittechno.com"
+  },
+  "source": {
+    "git": "https://github.com/Chetanideal/ChetansLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ChetansLib/Classes/**/*"
+}

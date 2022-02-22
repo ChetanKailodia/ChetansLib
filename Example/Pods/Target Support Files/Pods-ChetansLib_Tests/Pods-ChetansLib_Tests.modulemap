@@ -1,0 +1,6 @@
+framework module Pods_ChetansLib_Tests {
+  umbrella header "Pods-ChetansLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

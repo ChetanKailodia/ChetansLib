@@ -1,0 +1,16 @@
+PODS:
+  - ChetansLib (0.1.0)
+
+DEPENDENCIES:
+  - ChetansLib (from `../`)
+
+EXTERNAL SOURCES:
+  ChetansLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChetansLib: 8ba7918700cfa1abc4ea81a52fbc10875f6d7f11
+
+PODFILE CHECKSUM: 85c7d4b489e5eb5acc371eb6a623370aaa726b17
+
+COCOAPODS: 1.11.2
