@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0422C21027C5130000CA2D15 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0422C20E27C5130000CA2D15 /* .gitkeep */; };
 		0422C21127C5130000CA2D15 /* UIView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422C20F27C5130000CA2D15 /* UIView_Ext.swift */; };
 		1533E974D4E630744A0AF50CED207993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2B9BB166BD85B569B424283E43338A53 /* Pods-ChetansLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 555B00B5434DAF37CA4B420D29C546C5 /* Pods-ChetansLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0422C20E27C5130000CA2D15 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		0422C20F27C5130000CA2D15 /* UIView_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_Ext.swift; sourceTree = "<group>"; };
 		09725FC4A79C1E699C9812CCFED0F9BB /* ChetansLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChetansLib-Info.plist"; sourceTree = "<group>"; };
 		153AA0A44EB4E5C06686E54F6BA593F7 /* ChetansLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChetansLib-umbrella.h"; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 		0422C20D27C5130000CA2D15 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0422C20E27C5130000CA2D15 /* .gitkeep */,
 				0422C20F27C5130000CA2D15 /* UIView_Ext.swift */,
 			);
 			name = Classes;
@@ -360,7 +357,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0422C21027C5130000CA2D15 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
