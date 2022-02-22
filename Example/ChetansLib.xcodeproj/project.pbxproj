@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24171314E8B2192FD2133792 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		24171314E8B2192FD2133792 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		35E7D7533850B7DF6B26B2DF /* Pods-ChetansLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChetansLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ChetansLib_Tests/Pods-ChetansLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3CCE88390CFB6259AB216922 /* ChetansLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ChetansLib.podspec; path = ../ChetansLib.podspec; sourceTree = "<group>"; };
+		3CCE88390CFB6259AB216922 /* ChetansLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ChetansLib.podspec; path = ../ChetansLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3E469314609EE95683AD1112 /* Pods_ChetansLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChetansLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E82391063E3E32168A022B5 /* Pods_ChetansLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChetansLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ChetansLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChetansLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,7 @@
 		9B641AF0F9A8DD47A703DA9D /* Pods-ChetansLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChetansLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-ChetansLib_Tests/Pods-ChetansLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A2467F1A70AB49203464096C /* Pods-ChetansLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChetansLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-ChetansLib_Example/Pods-ChetansLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C749D98D1615A50C4C78F4FC /* Pods-ChetansLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChetansLib_Example.release.xcconfig"; path = "Target Support Files/Pods-ChetansLib_Example/Pods-ChetansLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EE7814AB189097E145CEB964 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EE7814AB189097E145CEB964 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				35E7D7533850B7DF6B26B2DF /* Pods-ChetansLib_Tests.debug.xcconfig */,
 				9B641AF0F9A8DD47A703DA9D /* Pods-ChetansLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

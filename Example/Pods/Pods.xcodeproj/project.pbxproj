@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0422C20727C5112800CA2D15 /* UIView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422C20627C5112800CA2D15 /* UIView_Ext.swift */; };
+		0422C21027C5130000CA2D15 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0422C20E27C5130000CA2D15 /* .gitkeep */; };
+		0422C21127C5130000CA2D15 /* UIView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422C20F27C5130000CA2D15 /* UIView_Ext.swift */; };
 		1533E974D4E630744A0AF50CED207993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2B9BB166BD85B569B424283E43338A53 /* Pods-ChetansLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 555B00B5434DAF37CA4B420D29C546C5 /* Pods-ChetansLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EE56299DBA890B00639683E9717FB43 /* ChetansLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B511D78369EE80C502248AF956DAF5 /* ChetansLib-dummy.m */; };
@@ -37,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0422C20627C5112800CA2D15 /* UIView_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_Ext.swift; sourceTree = "<group>"; };
+		0422C20E27C5130000CA2D15 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		0422C20F27C5130000CA2D15 /* UIView_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_Ext.swift; sourceTree = "<group>"; };
 		09725FC4A79C1E699C9812CCFED0F9BB /* ChetansLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChetansLib-Info.plist"; sourceTree = "<group>"; };
 		153AA0A44EB4E5C06686E54F6BA593F7 /* ChetansLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChetansLib-umbrella.h"; sourceTree = "<group>"; };
 		1BACC7B4DD587E39A69CBC96271ACFB0 /* Pods-ChetansLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChetansLib_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -100,6 +102,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0422C20D27C5130000CA2D15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0422C20E27C5130000CA2D15 /* .gitkeep */,
+				0422C20F27C5130000CA2D15 /* UIView_Ext.swift */,
+			);
+			name = Classes;
+			path = ChetansLib/Classes;
+			sourceTree = "<group>";
+		};
 		542460EE130C01AE7F5D5941C271CCDB /* Pods-ChetansLib_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +140,6 @@
 		631A281D72B15296555B25EBBED29D30 /* ChetansLib */ = {
 			isa = PBXGroup;
 			children = (
-				0422C20627C5112800CA2D15 /* UIView_Ext.swift */,
 				923661A6964231A65C8653DC36200179 /* Pod */,
 				F4200CC6FEB7CAAEDEEF7E16B6B39E41 /* Support Files */,
 			);
@@ -149,6 +160,7 @@
 		923661A6964231A65C8653DC36200179 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				0422C20D27C5130000CA2D15 /* Classes */,
 				C4DF1F8FDDF820CF8C012E76FA3E6D28 /* ChetansLib.podspec */,
 				79E8FA3361EC3EBC05381BA6427DD607 /* LICENSE */,
 				58F0D0F8DFBBD254FB13709A4D98D27E /* README.md */,
@@ -348,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0422C21027C5130000CA2D15 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0422C20727C5112800CA2D15 /* UIView_Ext.swift in Sources */,
+				0422C21127C5130000CA2D15 /* UIView_Ext.swift in Sources */,
 				6EE56299DBA890B00639683E9717FB43 /* ChetansLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
